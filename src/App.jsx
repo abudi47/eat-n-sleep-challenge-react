@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useEffect } from 'react'
 import Freindslist from "./components/Freindslist";
 import FormAddFreind from './components/FormAddFreind';
 import Button from './components/Button';
