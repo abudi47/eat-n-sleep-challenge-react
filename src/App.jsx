@@ -62,7 +62,7 @@ function handleSelectedfr (fr){
           
 
       </div>
-      {selectedFriend && <FormSplitBill selectedFriend={selectedFriend}/>   
+      {selectedFriend && <FormSplitBill key={selectedFriend.id} selectedFriend={selectedFriend}/>   
     }
     </div>
   )
